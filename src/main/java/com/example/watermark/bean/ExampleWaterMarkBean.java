@@ -1,4 +1,4 @@
-package com.example.swagger.bean;
+package com.example.watermark.bean;
 
 import lombok.Data;
 

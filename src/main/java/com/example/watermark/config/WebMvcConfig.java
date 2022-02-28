@@ -1,4 +1,4 @@
-package com.example.swagger.config;
+package com.example.watermark.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.example.swagger.config;
+package com.example.watermark.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -19,7 +19,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-@ComponentScan("com.example.swagger.controller")
+@ComponentScan("com.example.watermark.controller")
 public class SwaggerConfig {
 
     @Value("${initial.version}")

@@ -1,8 +1,8 @@
-package com.example.swagger.controller;
+package com.example.watermark.controller;
 
-import com.example.swagger.bean.ExampleWaterMarkBean;
-import com.example.swagger.config.CustomizeException;
-import com.example.swagger.serviceImpl.ExampleWaterMarkImpl;
+import com.example.watermark.bean.ExampleWaterMarkBean;
+import com.example.watermark.config.CustomizeException;
+import com.example.watermark.serviceImpl.ExampleWaterMarkImpl;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

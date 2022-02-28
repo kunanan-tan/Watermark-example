@@ -1,6 +1,5 @@
-package com.example.swagger.config;
+package com.example.watermark.config;
 
-import lombok.Data;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;
 

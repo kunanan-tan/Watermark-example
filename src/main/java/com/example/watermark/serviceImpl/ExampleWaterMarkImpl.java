@@ -1,7 +1,7 @@
-package com.example.swagger.serviceImpl;
+package com.example.watermark.serviceImpl;
 
-import com.example.swagger.bean.ExampleWaterMarkBean;
-import com.example.swagger.config.CustomizeException;
+import com.example.watermark.bean.ExampleWaterMarkBean;
+import com.example.watermark.config.CustomizeException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;

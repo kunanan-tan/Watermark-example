@@ -1,4 +1,4 @@
-package com.example.swagger.config;
+package com.example.watermark.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
