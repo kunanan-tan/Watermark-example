@@ -39,11 +39,9 @@ public class MasterServiceImpl {
         gs1.setFillOpacity(0.06f);
         // properties
         PdfContentByte over;
-        Rectangle pagesize;
         float a = 0, b = 0, x = 0, y = 0;
         // loop over every page (in case more than one page)
         for (int i = 1; i <= n; i++) {
-            pagesize = reader.getPageSizeWithRotation(i);
 
             a = 300;
             b = 500;

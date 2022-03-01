@@ -33,7 +33,7 @@ public class ExampleWaterMarkController {
 //            @RequestHeader(value = "Authorization", required = true) String authorization,
             @RequestHeader(value = "version", required = false) String apiVersion,
             @RequestHeader(value = "accept-language", required = false) String language,
-            @RequestBody(required = true) ExampleWaterMarkBean bean) throws Exception {
+            @RequestBody(required = true) ExampleWaterMarkBean bean) {
 
         if ( StringUtils.isEmpty(bean) ) {
             throw new CustomizeException(env.getProperty("error.default"));

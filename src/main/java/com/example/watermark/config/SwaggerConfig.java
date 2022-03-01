@@ -29,7 +29,7 @@ public class SwaggerConfig {
     public Docket apiInfo() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.example.swagger.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.example.watermark.controller"))
                 .paths(PathSelectors.regex("/.*"))
                 .build().apiInfo(apiEndPointsInfo());
 
